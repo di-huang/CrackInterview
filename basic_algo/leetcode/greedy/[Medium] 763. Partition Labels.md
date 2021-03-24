@@ -1,5 +1,5 @@
 
-Save the (start, end) indices of a-z letters in the string S; <br />
+Save the (start, end) indices of letters in the string S; <br />
 <br />
 For c = 1st letter in loop { <br />
 Get the (start, end) indices of c; <br />
