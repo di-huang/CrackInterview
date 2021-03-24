@@ -1,5 +1,6 @@
 https://leetcode.com/problems/counting-bits/
 
+**Algorithm:** <br />
 Examples: <br />
 0 --> 0 <br />
 1 --> 1 <br />
