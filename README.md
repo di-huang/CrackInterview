@@ -4,8 +4,8 @@
 
 ## Project review
 
-## Coding
+## Basic algorithms & coding
 
 ## Hand-on skills
 
-## Behavior questions
+## Behavioral questions
