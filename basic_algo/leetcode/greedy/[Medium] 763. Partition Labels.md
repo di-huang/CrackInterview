@@ -1,5 +1,6 @@
 https://leetcode.com/problems/partition-labels/
 
+**Algorithm:** <br />
 Save the (start, end) indices of letters in the string S; <br />
 <br />
 For c = 1st letter in loop { <br />
