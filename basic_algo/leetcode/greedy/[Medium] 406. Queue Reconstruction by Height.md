@@ -10,4 +10,4 @@ and insert [5, 2] into the 2nd position of the result... <br />
 
 
 **Time Complexity** <br />
-O(n^2)
+O(n^2) using ArrayList.add(idx, E) in Java
