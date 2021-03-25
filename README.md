@@ -6,7 +6,7 @@
 
 ## Basic algorithms & coding
 
-## Hand-on skills
+## Hand-on techniques
 
 ## Behavioral questions
 
