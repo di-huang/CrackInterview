@@ -1,13 +1,15 @@
 # CrackInterview
 
-## Pure theories
+### Pure theories
 
-## Project review
+### Project review
 
-## Basic algorithms & coding
+### Basic algorithms & coding
 
-## Hand-on techniques
+### Hand-on techniques
 
-## Behavioral questions
+### Behavioral questions
 
-## Interview skills
+### Interview skills
+
+# Hardcore section
