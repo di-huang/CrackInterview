@@ -16,7 +16,8 @@ https://docs.github.com/en/github/authenticating-to-github/managing-commit-signa
 3. Get the GPG key using `gpg --armor --export <key_id>` and paste it here: https://github.com/settings/keys
 4. Tell Git about user info using `git config --global user.signingkey <key_id>`, `git config --global user.email <email>` and `git config --global user.name <username>`
 5. `git commit -S -m <msg>` <br />
-Some userful GPG commands: \
+
+#### Some userful GPG commands:
 ```
 gpg --full-generate-key
 gpg --list-secret-keys --keyid-format LONG  # Find key_id
