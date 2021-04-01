@@ -4,12 +4,12 @@ git reset HEAD^
 git push origin +HEAD
 ```
 
-#### Git config
+#### Git config:
 ```
 git config --global --edit
 ```
 
-#### Signing commits without exposing email
+#### Signing commits without exposing email:
 https://docs.github.com/en/github/authenticating-to-github/managing-commit-signature-verification <br />
 1. Use `git log` to find your username and email
 2. Generate GPG key (4096 bits) with your username and email using `gpg --full-generate-key`
