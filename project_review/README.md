@@ -10,4 +10,4 @@ https://github.com/di-huang/intro2ml
 **Distributed Ledgers:** <br />
 **Advanced Databases:** <br />
 **Mathematics for Machine Learning:** <br />
-**MSc Project (NLP, by Di):** <br />
+**MSc Project & Paper (NLP, by Di):** <br />

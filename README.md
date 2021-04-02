@@ -11,7 +11,3 @@
 ### Behavioral questions
 
 ### Interview skills
-
-# Hardcore section
-
-### Computer Security
