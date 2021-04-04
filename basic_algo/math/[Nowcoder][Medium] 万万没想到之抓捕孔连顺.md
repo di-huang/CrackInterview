@@ -1,4 +1,4 @@
-https://www.nowcoder.com/test/16516564/summary <br />
+https://www.nowcoder.com/questionTerminal/c0803540c94848baac03096745b55b9b <br />
 字节跳动2019春招 (ByteDance, TikTok, 2019) <br />
 ````
 1. Choose 3 out of N positions;
@@ -20,17 +20,14 @@ Explain: (1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)
 ````
 
 **Algorithm:** <br />
-sliding window + combination. <br />
-False solution for counter-example: <br />
+Wrong solution for counter-example (using sliding window + combination): <br />
 ````python
 from math import comb
 
-N, D = input().split(" ")
-N, D = int(N), int(D)
-X = input().split(" ")
-X = [int(X[i]) for i in range(N)]
-
+N, D = map(int, input().split())
+X = list(map(int, input().split()))
 i, j, res = 0, 2, 0
+
 while j < N:
     if j - i < 2:
         j += 1
