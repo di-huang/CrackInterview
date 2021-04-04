@@ -1,4 +1,4 @@
-https://www.nowcoder.com/question/next?pid=16516564&qid=362290&tid=43154113
+https://www.nowcoder.com/question/next?pid=16516564&qid=362290&tid=43154113 <br />
 字节跳动2019春招 (ByteDance, TikTok, 2019) <br />
 ````
 1. Choose 3 out of N positions;
@@ -20,7 +20,7 @@ Explain: (1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)
 ````
 
 **Algorithm:** <br />
-sliding window + combination。 <br />
+sliding window + combination. <br />
 False solution for counter-example: <br />
 ````python
 from math import comb
