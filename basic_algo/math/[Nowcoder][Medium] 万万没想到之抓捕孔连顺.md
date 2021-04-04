@@ -1,4 +1,4 @@
-https://www.nowcoder.com/question/next?pid=16516564&qid=362290&tid=43154113 <br />
+https://www.nowcoder.com/test/16516564/summary <br />
 字节跳动2019春招 (ByteDance, TikTok, 2019) <br />
 ````
 1. Choose 3 out of N positions;
@@ -40,6 +40,24 @@ while j < N:
         if j - i > 2 and X[j - 1] - X[i] <= D:
             res += comb(j - i, 3)
         i += 1
+
+print(res % 99997867)
+````
+
+Correct solution: <br />
+````python
+from math import comb
+
+N, D = map(int, input().split())
+X = list(map(int, input().split()))
+i, j, res = 0, 2, 0
+
+while i + 2 < N:
+    while j < N and X[j] - X[i] <= D:
+        j += 1
+    if j - i >= 3:
+        res += comb(j - i - 1, 2)
+    i += 1
 
 print(res % 99997867)
 ````
