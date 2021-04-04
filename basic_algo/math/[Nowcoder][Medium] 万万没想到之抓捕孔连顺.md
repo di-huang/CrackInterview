@@ -20,7 +20,7 @@ Explain: (1, 2, 3), (1, 2, 4), (1, 3, 4), (2, 3, 4)
 ````
 
 **Algorithm:** <br />
-Wrong solution for counter-example (using sliding window + combination): <br />
+Wrong solution for counter-example (using sliding window + math combination): <br />
 ````python
 from math import comb
 
@@ -34,14 +34,14 @@ while j < N:
     else:
         while j < N and X[j] - X[i] <= D:
             j += 1
-        if j - i > 2 and X[j - 1] - X[i] <= D:
+        if j - i >= 3 and X[j - 1] - X[i] <= D:
             res += comb(j - i, 3)
         i += 1
 
 print(res % 99997867)
 ````
 
-Correct solution: <br />
+Correct solution (using math combination): <br />
 ````python
 from math import comb
 
@@ -57,4 +57,15 @@ while i + 2 < N:
     i += 1
 
 print(res % 99997867)
+````
+
+Example input and expected output: <br />
+````
+6 8
+2 3 5 8 10 12
+--------
+out: 13
+wrong out: 18
+(i j): (0 5, 1 5, 2 6)
+Double counted (i=1, j=5) and (5 8 10) for (i=2, j=6)
 ````
