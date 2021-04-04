@@ -1,9 +1,10 @@
 # Solution template
 
 主要针对国内面试OJ的输入输出模版. <br />
+Input and output templates for some OJ. <br />
 
 ### Python
 ```` python
-a, b = input().split(' ') # 单行获取多个输入
+a, b = input().split(' ') # get multiple inputs in a single line
 
 ````
