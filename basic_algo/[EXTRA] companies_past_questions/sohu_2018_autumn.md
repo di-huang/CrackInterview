@@ -62,7 +62,3 @@ for j in range(N):
     print(seq[j])
 
 ````
-
-print(res)
-````
-
