@@ -1,2 +1,2 @@
 # Theories
-(八股文) <br />
+Theoretical questions (八股文) <br />
