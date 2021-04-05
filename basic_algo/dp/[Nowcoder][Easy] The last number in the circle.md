@@ -13,7 +13,9 @@ while len(queue) > 1:
     i = (i + 2) % len(queue)
 print(queue[0])
 ````
-DP (accepted): <br />
+
+Divide & conquer / Recursion (accepted): <br />
+Define f(n) as the last remaining number if there are n people. Assume that we figure out the result of f(n - 1), now we keep on counting 3 times to get f(n). Thus, the remaining number f(n) = (f(n - 1) + 3 % n) % n.
 ````python
 N = int(input())
 f = 0

@@ -13,8 +13,8 @@ def custom(x, y):
         return 0
 
 temp = [2,7,3,11,5]
-sorted(temp, key=cmp_to_key(custom))
+temp = sorted(temp, key=cmp_to_key(custom))
+print(temp)
 # output: [11, 7, 5, 3, 2]
+# Other approaches: lambda and setting parameters
 ````
-Approach 2: <br />
-lambda
