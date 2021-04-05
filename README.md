@@ -1,6 +1,6 @@
 # CrackInterview
 
-### Pure theories
+### Theories
 
 ### Project review
 
