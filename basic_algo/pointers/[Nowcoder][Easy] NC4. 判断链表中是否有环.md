@@ -8,5 +8,3 @@ Use faster and slower pointers: one takes one step at a time, the other takes tw
 <br />
 Approach 2: <br />
 The next of each visited node is set to a common node (node_x) each recursion. Return true if node.next = node_x, or return false if node is null. <br />
-
-**Time Complexity** <br />
