@@ -1,4 +1,4 @@
-# Python
+# Python 3
 ### Custom sorting
 Approach 1: <br />
 ````python
@@ -14,7 +14,7 @@ def custom(x, y):
 
 temp = [2,7,3,11,5]
 sorted(temp, key=cmp_to_key(custom))
-
+# output: [11, 7, 5, 3, 2]
 ````
 Approach 2: <br />
 lambda

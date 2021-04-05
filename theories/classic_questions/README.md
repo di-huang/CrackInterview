@@ -1,3 +1,0 @@
-# Classic interview questions
-
-### Hashmap
