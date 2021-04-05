@@ -64,39 +64,37 @@ https://www.nowcoder.com/questionTerminal/a4b7f297ad0e46a0a1fbac4d2da83a63 <br /
 Solved by BFS. <br />
 ````python
 N = int(input())
-sx, sy, ex, ey = map(int, input().split())
+sy, sx, ey, ex = map(int, input().split())
 M = []
 for i in range(N):
-    temp = list(input())
-    M.append(temp)
+    M.append(list(input()))
 visited = [[False for i in range(N)] for j in range(N)]
 res = -1
 
 def is_valid(x, y):
-    return M[x][y] != '#' and M[x][y] != '@' and visited[x][y] == False
+    return M[x][y] != '#' and M[x][y] != '@' and not visited[x][y]
 
-queue = []
-queue.append((sy, sx, 0, (sx, sy)))
-visited[sy][sx] = True
+queue = [(sx, sy, 0)]
+visited[sx][sy] = True
 while len(queue) != 0:
     loc = queue.pop(0)
-    x, y, d, p = loc[0], loc[1], loc[2], loc[3]
-    if x == ey and y == ex:
+    x, y, d = loc[0], loc[1], loc[2]
+    if x == ex and y == ey:
         res = d
         break
 
     if x - 1 >= 0 and is_valid(x - 1, y):
         visited[x - 1][y] = True
-        queue.append((x - 1, y, d + 1, (x, y)))
+        queue.append((x - 1, y, d + 1))
     if x + 1 < N and is_valid(x + 1, y):
         visited[x + 1][y] = True
-        queue.append((x + 1, y, d + 1, (x, y)))
+        queue.append((x + 1, y, d + 1))
     if y - 1 >= 0 and is_valid(x, y - 1):
         visited[x][y - 1] = True
-        queue.append((x, y - 1, d + 1, (x, y)))
+        queue.append((x, y - 1, d + 1))
     if y + 1 < N and is_valid(x, y + 1):
         visited[x][y + 1] = True
-        queue.append((x, y + 1, d + 1, (x, y)))
+        queue.append((x, y + 1, d + 1))
 
 print(res)
 ````
