@@ -13,3 +13,4 @@ https://www.acwing.com/problem/ <br />
 21/03/26: pointers/NC4 <br />
 21/03/27: tree/[Nowcoder][Medium] Get postorder from preorder and inorder <br />
 21/04/04: math/[Nowcoder][Medium] 万万没想到之抓捕孔连顺 <br />
+21/04/06: stack/[Nowcoder][Medium] Go shopping <br />
