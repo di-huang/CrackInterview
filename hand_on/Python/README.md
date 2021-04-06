@@ -1,5 +1,5 @@
 # Python 3
-### Custom sorting
+#### Custom sorting
 Approach 1: <br />
 ````python
 from functools import cmp_to_key
@@ -17,4 +17,13 @@ temp = sorted(temp, key=cmp_to_key(custom))
 print(temp)
 # output: [11, 7, 5, 3, 2]
 # Other approaches: lambda and setting parameters
+````
+
+#### String
+````python
+# Find index
+s = "abcabc"
+print(s.index('a'))
+print(s.rindex('a'))
+# output: 0, 3
 ````

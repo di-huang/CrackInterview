@@ -1,8 +1,9 @@
 **LeetCode Top 100 liked questions:** <br />
 https://leetcode.com/problemset/top-100-liked-questions/ <br />
 
-**牛客网 (Nowcoder) online judge:** <br />
-https://www.nowcoder.com/activity/oj <br />
+**Nowcoder:** <br />
+Past questions of companies: https://www.nowcoder.com/contestRoom <br />
+Coding: https://www.nowcoder.com/activity/oj <br />
 
 **AcWing:** <br />
 https://www.acwing.com/problem/ <br />
