@@ -3,7 +3,8 @@ https://leetcode.com/problemset/top-100-liked-questions/ <br />
 
 **Nowcoder:** <br />
 Past questions of companies: https://www.nowcoder.com/contestRoom <br />
-Coding: https://www.nowcoder.com/activity/oj <br />
+All the Coding questions: https://www.nowcoder.com/activity/oj <br />
+Coding questions of companies: https://www.nowcoder.com/ta/exam-all <br />
 
 **AcWing:** <br />
 https://www.acwing.com/problem/ <br />
