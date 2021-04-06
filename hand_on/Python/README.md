@@ -45,8 +45,10 @@ func()
 ````
 Case 2: <br />
 ````python
-dp = [[0] * 2] * 2 # [[0, 0], [0, 0]]
-dp[0][0] = 5
-print(dp)
+x = [[0] * 2] * 2 # [[0, 0], [0, 0]]
+x[0][0] = 5
+print(x)
 # output: [[5, 0], [5, 0]]
+# correct:
+x = [[0] * 2 for i in range(2)]
 ````
