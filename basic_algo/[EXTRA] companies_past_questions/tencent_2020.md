@@ -11,7 +11,8 @@ class Solution:
         return str
 ````
 
-2. [Medium]逛街
+2. [Medium][逛街](https://github.com/di-huang/CrackInterview/blob/main/basic_algo/stack/%5BNowcoder%5D%5BMedium%5D%20Go%20shopping.md)
+
 ````python
 class Solution:
     def findBuilding(self , heights ):
@@ -34,3 +35,4 @@ class Solution:
         return res
 ````
 
+4. [Medium]假期 (题目似乎在暗示什么xD)

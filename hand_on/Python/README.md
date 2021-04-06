@@ -27,3 +27,19 @@ print(s.index('a'))
 print(s.rindex('a'))
 # output: 0, 3
 ````
+
+#### Debug
+Case 1: <br />
+````python
+# Ok:
+i = 1
+def func():
+	print(i)
+func()
+
+# Error:
+i = 1
+def func():
+	i += 1
+func()
+````
