@@ -46,7 +46,7 @@ sol = Solution(N, work, gym)
 print(sol.solve())
 ````
 
-Greedy (wrong result): <br />
+Greedy (doesn't work well): <br />
 ````python
 N = int(input())
 work = list(map(int, input().split(" ")))

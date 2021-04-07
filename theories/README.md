@@ -1,2 +1,2 @@
 # Theories
-Theoretical questions (八股文) <br />
+Theoretical questions, system design, etc. <br />
