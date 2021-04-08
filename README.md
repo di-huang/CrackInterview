@@ -1,12 +1,10 @@
 # CrackInterview
 
-### Theories
+### Online Judge
 
 ### Project review
 
-### Basic algorithms & coding
-
-### Hand-on techniques
+### Knowledge background
 
 ### Behavioral questions
 
