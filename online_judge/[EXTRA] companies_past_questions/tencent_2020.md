@@ -53,3 +53,6 @@ for i in range(1, N):
 
 print(min(dp[-1][0], dp[-1][1], dp[-1][2]))
 ````
+
+5. [Hard]视野争夺 <br />
+More details here: [LC_1326](https://github.com/di-huang/CrackInterview/blob/main/online_judge/greedy/%5BLeetcode%5D%5BHard%5D%201326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.md) <br />
