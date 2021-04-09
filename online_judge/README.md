@@ -13,7 +13,6 @@ https://codetop.cc/ <br />
 https://www.acwing.com/problem/ <br />
 
 **To review:** <br />
-21/03/26: pointers/NC4 <br />
 21/03/27: tree/[Nowcoder][Medium] Get postorder from preorder and inorder <br />
 21/04/04: math/[Nowcoder][Medium] Math Combination I <br />
 21/04/06: stack/[Nowcoder][Medium] Go shopping <br />
