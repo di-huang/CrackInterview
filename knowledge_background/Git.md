@@ -2,6 +2,8 @@
 ```
 git reset HEAD^
 git push origin +HEAD
+
+# git restore <file>
 ```
 
 #### Git config:
