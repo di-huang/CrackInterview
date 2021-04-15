@@ -28,3 +28,9 @@ gpg --list-keys
 gpg --delete-secret-key <key_id>
 gpg --delete-key <key_id>
 ```
+
+#### Syntax for images
+```
+<img src="https://github.com/xxx.jpg" width="100">
+![alt text](https://github.com/xxx.jpg)
+```
