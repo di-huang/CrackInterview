@@ -9,3 +9,17 @@ a, b = input().split() # get multiple inputs in a single line
 a, b = map(int, input().split()) # get multiple inputs and convert them to int type in a single line
 
 ````
+
+# Classic questions
+
+### Sorting
+quicksort, mergesort, etc.
+
+### Data structure
+Hashmap, etc.
+
+### DP
+Knapsack problem, etc.
+
+### Tree
+Red–black tree, etc.

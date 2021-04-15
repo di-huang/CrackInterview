@@ -12,7 +12,7 @@ class Solution:
 ````
 
 2. [Medium]逛街 <br />
-More details here: [Go shopping](https://github.com/di-huang/CrackInterview/blob/main/basic_algo/stack/%5BNowcoder%5D%5BMedium%5D%20Go%20shopping.md)
+More details: stack/Go shopping <br />
 ````python
 class Solution:
     def findBuilding(self , heights ):
@@ -36,7 +36,7 @@ class Solution:
 ````
 
 4. [Medium]假期 (题目似乎在暗示什么xD) <br />
-More details here: [Vacations](https://github.com/di-huang/CrackInterview/blob/main/basic_algo/dp/%5BNowcoder%5D%5BMedium%5D%20Vacations.md)
+More details: dp/Vacations <br />
 ````python
 N = int(input())
 work = list(map(int, input().split(" ")))
@@ -55,4 +55,4 @@ print(min(dp[-1][0], dp[-1][1], dp[-1][2]))
 ````
 
 5. [Hard]视野争夺 <br />
-More details here: [LC_1326](https://github.com/di-huang/CrackInterview/blob/main/online_judge/greedy/%5BLeetcode%5D%5BHard%5D%201326.%20Minimum%20Number%20of%20Taps%20to%20Open%20to%20Water%20a%20Garden.md) <br />
+More details: greedy/LC_1326 <br />
