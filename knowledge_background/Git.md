@@ -31,6 +31,6 @@ gpg --delete-key <key_id>
 
 #### Syntax for images
 ```
-<img src="https://github.com/xxx.jpg" width="100">
-![alt text](https://github.com/xxx.jpg)
+<img src="https://github.com/username/project_name/blob/main/xxx.jpg" width="100">
+![alt text](https://github.com/username/project_name/blob/main/xxx.jpg)
 ```
